@@ -1,5 +1,5 @@
 <template>
-    <section class="about-section">"
+    <section class="about-section">
         <h2 class="title">about</h2>
         <div class="about-content">
             <p>enthusiastic about crafting <span class="highlight">user-friendly experiences</span> and tackling challenges with a collaborative spirit.</p>
