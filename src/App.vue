@@ -26,9 +26,10 @@ export default {
 <template>
     <LandingPage />
     <AboutSection />
+    <SkillsSection />
     <FooterSection :position="bottom" />
     
-    <!--<SkillsSection />
+    <!--
     <FooterSection />
     <PortfolioSection />-->
 </template>
