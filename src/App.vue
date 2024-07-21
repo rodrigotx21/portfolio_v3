@@ -15,16 +15,28 @@ export default {
         FooterSection,
         PortfolioDisplay
     },
+    data() {
+        return {
+            bottom: false
+        }
+    },
 }
 </script>
 
 <template>
-    <!--<LandingPage />
-    <AboutSection />
+    <LandingPage />
+    <FooterSection :position="bottom" />
+    <!--<AboutSection />
     <SkillsSection />
-    <FooterSection />-->
-    <PortfolioDisplay />
+    <FooterSection />
+    <PortfolioSection />-->
 </template>
 
-<style scoped>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background: var(--background);
+    }
 </style>

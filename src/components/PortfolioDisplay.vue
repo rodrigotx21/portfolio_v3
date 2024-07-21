@@ -36,7 +36,7 @@ export default {
                     title: "Newsletter Sign Up" 
                 },
                 { 
-                    link: "#",
+                    link: null,
                     src: "src/assets/portfolio/old_portfolio.png", 
                     title: "Old Portfolio" 
                 },
@@ -68,7 +68,9 @@ export default {
             }, 3500);
         },
         openLink(url) {
-            window.open(url, '_blank');
+            if (url != null) {
+                window.open(url, '_blank');
+            }
         }
     },
     mounted() {
