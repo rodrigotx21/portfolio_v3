@@ -2,9 +2,9 @@
     <section class="about-section">
         <h2 class="title">about</h2>
         <div class="about-content">
-            <p>enthusiastic about crafting <span class="highlight">user-friendly experiences</span> and tackling challenges with a collaborative spirit.</p>
-            <p>ready to showcase <span class="highlight">my skills</span> through personal projects and open-source <span class="highlight">contributions</span>  .</p>
-            <p>check out my portfolio and <span class="highlight">connect with me</span> to explore the possibilities!</p>
+            <p class="paragraph">enthusiastic about crafting <span class="highlight">user-friendly experiences</span> and tackling challenges with a collaborative spirit.</p>
+            <p class="paragraph">ready to showcase <span class="highlight">my skills</span> through personal projects and open-source <span class="highlight">contributions</span>  .</p>
+            <p class="paragraph">check out my portfolio and <span class="highlight">connect with me</span> to explore the possibilities!</p>
         </div>
     </section>
 </template>
@@ -21,13 +21,25 @@
 </script>
 
 <style scoped>
-    section.about-section {}
+    section.about-section {
+        padding: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-    h2#title {}
+    div.about-content {
+        width: 45vw;
+        color: var(--text-transparent);
+        text-align: justify;
+        font-size: 28px;
+        font-weight: 600;
+    }
 
-    div.about-content {}
+    p.paragraph {
+        margin-bottom: 35px;
+    }
 
-    p {}
-
-    span.highlight {}
+    span.highlight {
+        color: var(--text, #153448);
+    }
 </style>

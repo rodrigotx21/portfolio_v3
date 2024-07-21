@@ -25,9 +25,10 @@ export default {
 
 <template>
     <LandingPage />
+    <AboutSection />
     <FooterSection :position="bottom" />
-    <!--<AboutSection />
-    <SkillsSection />
+    
+    <!--<SkillsSection />
     <FooterSection />
     <PortfolioSection />-->
 </template>
@@ -38,5 +39,12 @@ export default {
         padding: 0;
         height: 100vh;
         background: var(--background);
+    }
+
+    h2.title {
+        color: var(--title);
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 700;
     }
 </style>
