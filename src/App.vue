@@ -3,8 +3,9 @@ import LandingPage from './components/LandingPage.vue'
 import AboutSection from './components/AboutSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
 import FooterSection from './components/FooterSection.vue'
-import DisplayControler from './components/DisplayControler.vue'
+import PortfolioDisplay from './components/PortfolioDisplay.vue'
 import './styles/variables.css'
+import './styles/material-symbols-outlined.css'
 
 export default {
     components: {
@@ -12,13 +13,8 @@ export default {
         AboutSection,
         SkillsSection,
         FooterSection,
-        DisplayControler
+        PortfolioDisplay
     },
-    data() {
-        return {
-            dots: 3
-        }
-    }
 }
 </script>
 
@@ -27,7 +23,7 @@ export default {
     <AboutSection />
     <SkillsSection />
     <FooterSection />-->
-    <DisplayControler :dots="dots"/>
+    <PortfolioDisplay />
 </template>
 
 <style scoped>
