@@ -65,7 +65,7 @@ export default {
         startAutoChangePage() {
             this.intervalId = setInterval(() => {
                 this.handleChangePage(this.active_page + 1);
-            }, 3500);
+            }, 5000);
         },
         openLink(url) {
             if (url != null) {
@@ -87,8 +87,8 @@ export default {
 
 <style scoped>
     div.portfolio {
-        width: 400px;
-        height: 240px;
+        width: 50vw;
+        height: 30vw;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -107,13 +107,5 @@ export default {
     }
     img:hover {
         cursor: pointer;
-    }
-
-    #controller {
-        position: absolute;
-        bottom: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 10;
     }
 </style>

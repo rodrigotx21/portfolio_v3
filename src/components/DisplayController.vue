@@ -36,6 +36,12 @@
     div.controler {
         display: flex;
         gap: 2px;
+
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 20;
     }
 
     div.container, button.container {
@@ -51,7 +57,7 @@
     }
 
     button.arrow:hover {
-        cursor: pointer;
+        cursor: pointer !important;
         background: var(--text);
     }
     button.arrow:hover > .material-symbols {
