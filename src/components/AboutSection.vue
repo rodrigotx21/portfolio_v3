@@ -1,5 +1,5 @@
 <template>
-    <section class="about-section">
+    <section id="about-section">
         <h2 class="title">about</h2>
         <div class="about-content">
             <p class="paragraph">enthusiastic about crafting <span class="highlight">user-friendly experiences</span> and tackling challenges with a collaborative spirit.</p>
@@ -21,7 +21,7 @@
 </script>
 
 <style scoped>
-    section.about-section {
+    section#about-section {
         padding: 80px;
         display: flex;
         justify-content: space-between;

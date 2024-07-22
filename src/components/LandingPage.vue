@@ -1,9 +1,9 @@
 <template>
     <!-- Background from https://superdesigner.co/ -->
-    <section class="landing-page">
+    <section id="landing-page">
         <FooterSection :position="top" />
         <h1 class="main-title">HI, I'M RODRIGO</h1>
-        <button @click="moveToContact()" id="connect-button">Connect with me!</button>
+        <button @click="moveToSection('contact-section')" id="connect-button">Connect with me!</button>
     </section>
 </template>
 
@@ -18,8 +18,9 @@
             };
         },
         methods: {
-            moveToContact() {
-                // Logic for connecting goes here
+            moveToSection(section) {
+                const contactSection = document.getElementById(section);
+                contactSection.scrollIntoView({ behavior: 'smooth' });
             }
         },
         components: {
@@ -29,7 +30,7 @@
 </script>
 
 <style scoped>
-    section.landing-page {
+    section#landing-page {
         display: flex;
         height: 600px;
         flex-direction: column;

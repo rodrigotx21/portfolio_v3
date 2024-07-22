@@ -1,5 +1,5 @@
 <template>
-    <section class="portfolio-section">
+    <section id="portfolio-section">
         <PortfolioDisplay />
         <h2 class="title">portfolio</h2>
     </section>
@@ -17,7 +17,7 @@
 </script>
 
 <style scoped>
-    section.portfolio-section {
+    section#portfolio-section {
         padding: 80px;
         display: flex;
         justify-content: space-between;

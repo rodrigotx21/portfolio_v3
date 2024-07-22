@@ -1,5 +1,5 @@
 <template>
-    <section class="skills-section">
+    <section id="skills-section">
         <p v-for="skill in skills" class="skill">{{ skill }}</p>
         <div class="frame"></div>
     </section>
@@ -24,7 +24,7 @@
 </script>
 
 <style scoped>
-    section.skills-section {
+    section#skills-section {
         width: 100%;
         height: 230px;
 

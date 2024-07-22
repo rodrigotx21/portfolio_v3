@@ -27,27 +27,27 @@ export default {
             pages: [
                 { 
                     link: "https://rodrigotx21.github.io/mortgage-repayment-calculator-main/",
-                    src: "src/assets/portfolio/mortage-payment-calculator.png", 
+                    src: "src/assets/mortage-payment-calculator.png", 
                     title: "Mortgage Payment Calculator" 
                 },
                 { 
                     link: "https://rodrigotx21.github.io/newsletter-sign-up-with-success-message-main/",
-                    src: "src/assets/portfolio/newsletter-sign-up.png", 
+                    src: "src/assets/newsletter-sign-up.png", 
                     title: "Newsletter Sign Up" 
                 },
                 { 
                     link: null,
-                    src: "src/assets/portfolio/old_portfolio.png", 
+                    src: "src/assets/old-portfolio.png", 
                     title: "Old Portfolio" 
                 },
                 { 
                     link: "https://rodrigotx21.github.io/qr-code-component-main/",
-                    src: "src/assets/portfolio/qr-code-component.png", 
+                    src: "src/assets/qr-code-component.png", 
                     title: "QR Code Component" 
                 },
                 { 
                     link: "https://rodrigotx21.github.io/simple-coffee-listing/",
-                    src: "src/assets/portfolio/simple-coffee-listing.png", 
+                    src: "src/assets/simple-coffee-listing.png", 
                     title: "Simple Coffee Listing" 
                 }
             ],

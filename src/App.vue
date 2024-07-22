@@ -4,9 +4,9 @@ import AboutSection from './components/AboutSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import PortfolioSection from './components/PortfolioSection.vue'
+import ContactSection from './components/ContactSection.vue'
 import './styles/variables.css'
 import './styles/material-symbols-outlined.css'
-
 
 export default {
     components: {
@@ -14,7 +14,8 @@ export default {
         AboutSection,
         SkillsSection,
         FooterSection,
-        PortfolioSection
+        PortfolioSection,
+        ContactSection
     },
     data() {
         return {
@@ -29,11 +30,8 @@ export default {
     <AboutSection />
     <SkillsSection />
     <PortfolioSection />
+    <ContactSection />
     <FooterSection :position="bottom" />
-    
-    <!--
-    <FooterSection />
-    -->
 </template>
 
 <style>
